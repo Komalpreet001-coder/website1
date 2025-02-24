@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: (90deg, #ff00ff, #FF00ff); /* mix two color linear-gradient (angle, two color want to mix)*/
+    background-image: linear-gradient(45deg, green, blue); /* mix two color linear-gradient (angle, two color want to mix)*/
     display: flex; /* uses flexbox which responds to different screen size (it will automcatically fit the screen of device*/
     align-items: center; /* vertically center the item*/
     justify-content: center; /* horizontally center*/
@@ -12,19 +12,52 @@ body {
     margin: 0;
 }
 
+/*.search {
+    height: 300px;
+    width: 300px;
+    background-color: red
+}*/
+
+.search {
+    position: relative;
+    height: 50px;
+}
+
+
+
 .serach .input{
     height: 50px;
-    width: 200px;
+    width: 50px;
     font-size: 18px;
     padding: 15px;
     border: 0;
     background-color: white;
+    transition: width 1s ease;
 }
 
 .btn {
-    background-color: black;
+    background-color: white;
     border: 0;
     font-size: 24px;
     height: 50px;
     width: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s ease;
+}
+
+.search.active .input {
+    width: 200px;
+
+}
+
+.search.active .btn {
+    transform: translateX(198px);
+}
+
+
+.btn:focus, .input:focus {
+    outline: none;
 }
