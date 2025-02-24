@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    background: Blue; /* mix two color linear-gradient (angle, two color want to mix)*/
+    display: flex; /* uses flexbox which responds to different screen size (it will automcatically fit the screen of device*/
+    align-items: center; /* vertically center the item*/
+    justify-content: center; /* horizontally center*/
+    height: 100vh; /* vh- viewport height set the body height to 100%*/
+    margin: 0;
+}
+
+.serach .input{
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    padding: 15px;
+    border: 0;
+    background-color: white;
+}
+
+.btn {
+    background-color: black;
+    border: 0;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+}
