@@ -4,7 +4,7 @@
 
 
 body {
-    background-image: linear-gradient(45deg, green, blue); /* mix two color linear-gradient (angle, two color want to mix)*/
+    background-image: linear-gradient(25deg, Pink, Purple); /* mix two color linear-gradient (angle, two color want to mix)*/
     display: flex; /* uses flexbox which responds to different screen size (it will automcatically fit the screen of device*/
     align-items: center; /* vertically center the item*/
     justify-content: center; /* horizontally center*/
