@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+
+}
+
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    /* space between images - margin */
+    margin: 10px;
+    /* radius round the corner */
+    border-radius: 40px;
+    /* flex give all same width */
+    flex: 1;
+
+}
