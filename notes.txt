@@ -7,3 +7,5 @@ if i want github to reflect my changes ...
 any language you don't know how to use comments just press ctrl + /
 for icons webistes like fontsawesome
 
+use code js or css or html /new program.cs or  html or js to put it into the folder without changing directory 
+

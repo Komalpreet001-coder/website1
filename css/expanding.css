@@ -9,6 +9,10 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    color: White;
+    /* text align and text justify center the text */
+    text-align: center;
+    text-justify: center;
 }
 
 .container {
@@ -27,7 +31,14 @@ body {
     margin: 10px;
     /* radius round the corner */
     border-radius: 40px;
+    cursor: pointer;
     /* flex give all same width */
     flex: 1;
+    margin: 10px;
 
+}
+
+
+.panel.active {
+    flex: 5;
 }
