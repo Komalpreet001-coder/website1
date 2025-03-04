@@ -26,7 +26,7 @@ body {
 .serach .btn {
     position: absolute;
     top: 0;
-    left: 228px;
+    left: 0px;
     font-size: 24px;
     background-color: white;
     border: 0;
@@ -44,24 +44,7 @@ body {
 
 }
 
+.search .input:focus {
+  outline: none;
 
-
-.search .input {
-    background-color: white;
-    border: 0;
-    font-size: 18px;
-    height: 50px;
-    width: 200px;
-    padding: 15px;
-
-
-}
-
-.search.active .btn {
-    transform: translateX(198px);
-}
-
-
-.btn:focus, .input:focus {
-    outline: none;
 }
