@@ -19,25 +19,14 @@ body {
 }*/
 
 .search {
+    height: 50px;
     position: relative;
-    height: 50px;
-}
-
-
-
-.serach .input{
-    height: 50px;
-    width: 50px;
-    font-size: 18px;
-    padding: 15px;
-    border: 0;
-    background-color: white;
 }
 
 .serach .btn {
     position: absolute;
     top: 0;
-    left: 180px;
+    left: 228px;
     font-size: 24px;
     background-color: white;
     border: 0;
@@ -45,6 +34,17 @@ body {
     width: 50px;
     cursor: pointer;
 }
+.serach .input{
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 15px;
+
+}
+
+
 
 .search .input {
     background-color: white;
