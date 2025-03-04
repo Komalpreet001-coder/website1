@@ -43,6 +43,7 @@ body {
     border: 0;
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
 .search .input {
