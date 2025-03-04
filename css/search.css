@@ -33,6 +33,7 @@ body {
     height: 50px;
     width: 50px;
     cursor: pointer;
+    transition: transform 3s ease;
 }
 .serach .input{
     background-color: white;
@@ -41,6 +42,7 @@ body {
     height: 50px;
     width: 50px;
     padding: 15px;
+    transition: width 1s ease;
 
 }
 
