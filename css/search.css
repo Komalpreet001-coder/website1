@@ -32,7 +32,6 @@ body {
     padding: 15px;
     border: 0;
     background-color: white;
-    box-sizing: border-box;
 }
 
 .serach .btn {
@@ -53,7 +52,6 @@ body {
     height: 50px;
     width: 200px;
     padding: 15px;
-    box-sizing: border-box;
 
 
 }
