@@ -23,5 +23,6 @@ element2.addEventListener('mouseout', ()=> {
 })
 
 document.addEventListener ('keyup', (event)=> {
-
+    // console.log tell us what key we press
+    console.log(event.key)
 })
