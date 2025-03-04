@@ -64,10 +64,11 @@ document.addEventListener ('keyup', (event)=>{
 })
 
 
-cosnt list = ['running', 'paused']
+const list = ['running', 'paused']
 let index = 0
 element5.addEventListener ('click', ()=> {
     element5.style.animationPlayState = list[index]
     // animationplaystate is build the animation from css
-    index = index + 1
+    index = (index + 1) % 2
+    // mod - % that will loop numbers. mod 2 will only loop 2 number- 0, 1
 })
