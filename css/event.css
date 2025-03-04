@@ -69,6 +69,6 @@ body {
 /* call the animation */
 #element5 {
     /* liner finite is a type of animation, search for more types */
-    animation: spin .3s linear infinte;
+    animation: spin .3s linear infinite;
     animation-play-state: paused;
 }
