@@ -35,13 +35,11 @@ body {
     cursor: pointer;
     /* flex give all same width */
     flex: 1;
-    margin: 10px;
     position: absolute;
     transition: flex 1s ease-in;
 
 }
-
-.panel .active {
+.panel.active {
     flex: 5;
 }
 
@@ -53,7 +51,7 @@ body {
     margin: 0;
     opacity: 0;
 }
-.panel .active .h3 {
+.panel.active .h3 {
     opacity: 1;
     transition: opacity .6s ease-in 0.4s;
 }
@@ -62,7 +60,7 @@ body {
     .panel:nth-of-type(4){
         display: none;
     }
-    panel.panel:nth-of-type(5) {
+    .panel:nth-of-type(5) {
         display: none;
     }
     .container {
