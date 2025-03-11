@@ -4,6 +4,7 @@
 
 body {
     display: flex;
+    background-color: White;
     height: 50vh;
     width: 50vw;
     justify-content: center;
@@ -13,8 +14,6 @@ body {
     color: Blue;
 }
 .bg {
-    background: url('../images/minion.avif');
-    background-color: transparent;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,33 +59,6 @@ body {
     left: 250px;
 }
 
-#element3 {
-    position: absolute;
-    bottom: 0px;
-    left: 500px;
-}
-
-#element4 {
-    position: absolute;
-    top: 200px;
-    right: 500px;
-
-}
-
-.bubble {
-    display: flex;
-    color: blue;
-    height: 50vh;
-    width: 50vw;
-
-}
-
-#element4 {
-    position: absolute;
-    top: 0px;
-    right: 500px;
-
-}
 
 
 
