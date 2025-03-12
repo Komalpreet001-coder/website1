@@ -1,4 +1,7 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+</style>
 * {
     box-sizing: border-box;
 }
@@ -11,4 +14,27 @@ body {
     height: 100vh;
     margin: 0;
     
+}
+
+.btn {
+    font-family: static;
+    background-color: red;
+    margin: 10px;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+
+}
+
+.btn:hover {
+    opacity: 0.9;
+
+}
+
+.btn:focus {
+    outline: none;
+
 }
